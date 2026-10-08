@@ -10,7 +10,7 @@ public class JDBCDemo {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/StudentsDB";
         String username = "root";
-        String password = "your_root_password"; // put your MySQL root password here
+        String password = "password"; // put your MySQL root password here
 
         try (Connection conn = DriverManager.getConnection(url, username, password);
              Statement st = conn.createStatement();
